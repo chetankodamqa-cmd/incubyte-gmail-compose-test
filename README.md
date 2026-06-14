@@ -15,10 +15,10 @@ Gmail Compose Function – Send an email with:
 | playwright.config.ts | Playwright configuration |
 
 ## Test Coverage
-- ✅ 12 Positive Traditional Test Cases
-- ✅ 7 Negative Traditional Test Cases
-- ✅ 10 Positive BDD Test Cases
-- ✅ 7 Negative BDD Test Cases
+- 12 Positive Traditional Test Cases
+- 7 Negative Traditional Test Cases
+- 10 Positive BDD Test Cases
+- 7 Negative BDD Test Cases
 
 ## Tech Stack
 - Playwright (TypeScript)
@@ -29,7 +29,7 @@ Gmail Compose Function – Send an email with:
 ```bash
 npm install
 npx playwright install chromium
-export GMAIL_USER="your@gmail.com"
-export GMAIL_PASS="yourpassword"
+export GMAIL_USER="chetankodamqa@gmail.com"
+export GMAIL_PASS="abc@123"
 npx playwright test
 ```
